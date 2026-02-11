@@ -1,0 +1,176 @@
+{
+  "version": "2.1.0",
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "rayuwu",
+        "icon": "apps",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "name": "Submenu",
+            "icon": "activitypub",
+            "iconTheme": "simple-icons",
+            "data": {},
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/discord",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Discord",
+                "icon": "discord",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "brave",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Brave",
+                "icon": "brave",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/code",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Visual Studio Code",
+                "icon": "codecrafters",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "name": "Spotify",
+                "icon": "spotify",
+                "iconTheme": "simple-icons",
+                "data": {
+                  "command": "spotify --uri=",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                }
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "kitty",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "kitty",
+                "icon": "gnometerminal",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "name": "Files",
+                "icon": "files",
+                "iconTheme": "simple-icons",
+                "data": {
+                  "command": "nautilus --new-window",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                }
+              }
+            ],
+            "angle": 0
+          },
+          {
+            "type": "submenu",
+            "name": "Submenu",
+            "icon": "fing",
+            "iconTheme": "simple-icons",
+            "data": {},
+            "children": [
+              {
+                "type": "command",
+                "name": "KDE Connect",
+                "icon": "kdeconnect",
+                "iconTheme": "system",
+                "data": {
+                  "command": "kdeconnect-app",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                }
+              },
+              {
+                "type": "command",
+                "name": "Advanced Network Configuration",
+                "icon": "wifi",
+                "iconTheme": "material-symbols-rounded",
+                "data": {
+                  "command": "nm-connection-editor",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                }
+              },
+              {
+                "type": "file",
+                "name": "Downloads",
+                "icon": "file-item.svg",
+                "iconTheme": "kando",
+                "data": {
+                  "path": "/home/ray/Downloads"
+                }
+              },
+              {
+                "type": "file",
+                "name": "Desktop",
+                "icon": "file-item.svg",
+                "iconTheme": "kando",
+                "data": {
+                  "path": "/home/ray/Desktop"
+                }
+              },
+              {
+                "type": "command",
+                "name": "Bluetooth Manager",
+                "icon": "blueman-disabled",
+                "iconTheme": "system",
+                "data": {
+                  "command": "blueman-manager",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "rayuwu",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": [
+        "favs"
+      ]
+    }
+  ]
+}

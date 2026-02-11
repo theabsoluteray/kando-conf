@@ -1,0 +1,65 @@
+{
+  "version": "2.1.0",
+  "locale": "auto",
+  "showIntroductionDialog": true,
+  "menuTheme": "neon-lights",
+  "darkMenuTheme": "neon-lights",
+  "menuThemeColors": {
+    "neon-lights": {
+      "glow-color": "rgb(0 0 0)",
+      "connector-color": "rgb(3 3 3)",
+      "separator-color": "rgb(0 0 0)",
+      "wedge-color": "rgb(0 0 0)"
+    }
+  },
+  "darkMenuThemeColors": {
+    "default": {
+      "hover-color": "rgb(56 56 56)",
+      "border-color": "rgb(81 80 80)",
+      "text-color": "rgb(254 254 254)",
+      "background-color": "rgb(79 78 78)",
+      "wedge-highlight-color": "rgb(0 0 0 / 0)",
+      "wedge-color": "rgb(0 0 0 / 0)"
+    },
+    "neon-lights": {
+      "glow-color": "rgb(19 19 19 / 0.87)",
+      "connector-color": "rgb(0 0 0)",
+      "wedge-color": "rgb(0 0 0 / 0)",
+      "separator-color": "rgb(0 0 0)"
+    }
+  },
+  "enableDarkModeForMenuThemes": true,
+  "soundTheme": "none",
+  "soundVolume": 0.5,
+  "enableVersionCheck": true,
+  "ignoreWriteProtectedConfigFiles": false,
+  "settingsWindowColorScheme": "system",
+  "settingsWindowFlavor": "transparent-system",
+  "trayIconFlavor": "color",
+  "hardwareAcceleration": true,
+  "lazyInitialization": false,
+  "zoomFactor": 1,
+  "hideSettingsButton": false,
+  "settingsButtonPosition": "bottom-right",
+  "centerDeadZone": 50,
+  "minParentDistance": 150,
+  "dragThreshold": 15,
+  "fadeInDuration": 150,
+  "fadeOutDuration": 200,
+  "keepInputFocus": false,
+  "enableMarkingMode": true,
+  "enableTurboMode": true,
+  "warpMouse": true,
+  "hoverModeNeedsConfirmation": false,
+  "gestureMinStrokeLength": 150,
+  "gestureMinStrokeAngle": 20,
+  "gestureJitterThreshold": 10,
+  "gesturePauseTimeout": 100,
+  "fixedStrokeLength": 0,
+  "rmbSelectsParent": false,
+  "enableGamepad": true,
+  "gamepadBackButton": 1,
+  "gamepadCloseButton": 2,
+  "sameShortcutBehavior": "nothing",
+  "useDefaultOsShowSettingsHotkey": true
+}
